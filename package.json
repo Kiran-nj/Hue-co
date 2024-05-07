@@ -5,8 +5,9 @@
   "type": "module",
   "homepage": "https://Kiran-nj.github.io/Hueandco",
   "scripts": {
-    "predeploy": "npm run build",
+    
     "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
