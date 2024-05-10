@@ -3,11 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Kiran-nj.github.io/Hueandco",
+  "homepage": "https://kiran-nj.github.io/Hue-co",
   "scripts": {
-    
-    "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -16,7 +15,6 @@
   "dependencies": {
     "@gsap/react": "^2.1.1",
     "framer-motion": "^11.1.7",
-    "gh-pages": "^6.1.1",
     "gsap": "^3.12.5",
     "locomotive-scroll": "^5.0.0-beta.12",
     "react": "^18.3.1",
@@ -33,6 +31,7 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.0"
